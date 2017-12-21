@@ -1,0 +1,47 @@
+{
+  "name": "backend-starter-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register src/**/*.spec.ts || exit 0",
+    "start": "node ./build/main.js",
+    "serve": "backpack dev",
+    "build": "backpack build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "4.14.80",
+    "awesome-typescript-loader": "3.4.1",
+    "axios": "0.17.1",
+    "backpack-core": "0.4.3",
+    "dotenv": "4.0.0",
+    "lodash": "4.17.4",
+    "lodash-ts-imports-loader": "1.1.2",
+    "typescript": "2.6.2"
+  },
+  "devDependencies": {
+    "@types/chai": "4.0.4",
+    "@types/chai-arrays": "1.0.2",
+    "@types/chai-as-promised": "7.1.0",
+    "@types/chai-string": "1.1.31",
+    "@types/mocha": "2.2.43",
+    "@types/sinon": "2.3.6",
+    "@types/sinon-chai": "2.7.29",
+    "@types/supertest": "2.0.3",
+    "chai": "4.1.2",
+    "chai-arrays": "2.0.0",
+    "chai-as-promised": "7.1.1",
+    "chai-shallow-deep-equal": "1.4.6",
+    "chai-string": "1.4.0",
+    "mocha": "3.5.3",
+    "sinon": "4.1.2",
+    "sinon-chai": "2.14.0",
+    "supertest": "3.0.0",
+    "supertest-chai": "0.0.8",
+    "ts-mocha": "1.0.3",
+    "ts-node": "3.3.0"
+  }
+}
