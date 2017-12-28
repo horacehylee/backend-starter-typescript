@@ -16,9 +16,9 @@ module.exports = {
         enforce: "pre"
       },
       {
-        test: /^(?!.*\.spec\.ts$).*\.ts$/,
-        loader: 'awesome-typescript-loader',
-      }
+        test: /^(?!.*\.spec\.tsx?$).*\.tsx?$/,
+        loader: 'ts-loader',
+      },
     );
 
     return config
