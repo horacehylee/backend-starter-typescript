@@ -20,3 +20,7 @@ npm run build
 # test
 npm run test
 ```
+
+## License
+
+MIT © [Horace Lee](https://github.com/horacehylee)
