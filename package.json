@@ -12,6 +12,7 @@
   "keywords": [],
   "author": "Horace Lee",
   "license": "MIT",
+  "files": ["build"],
   "dependencies": {
     "axios": "0.17.1",
     "backpack-core": "0.4.3",
