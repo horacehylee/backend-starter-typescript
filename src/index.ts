@@ -5,6 +5,7 @@ import * as express from "express";
 import * as compression from 'compression';
 import * as bodyParser from 'body-parser';
 import * as morgan from 'morgan';
+import * as errorHandler from "api-error-handler";
 
 import { setupRoutes } from "./routes";
 import { setupDb } from './setup';
@@ -33,5 +34,7 @@ const server = app.listen(port, (err: Error) => {
 });
 
 setupRoutes(app);
+
+app.use(errorHandler());
 
 export = app;
